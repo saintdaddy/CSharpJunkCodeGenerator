@@ -1,5 +1,5 @@
 # C# Junk Code Generator
-**By generating Junk(Useless) code for C#, you can ensure that your malicious file is not caught by on scantime Anti-Viruses**
+**By generating Junk(Useless) code for C#, you can ensure that your malicious file is not caught on scantime by Anti-Viruses**
 
 # Usage
 ```
