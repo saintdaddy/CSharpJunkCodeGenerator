@@ -84,8 +84,5 @@ def classgen(adet):
         strascii4 = ''.join(random.choice(string.ascii_letters) for x in range(50))
         a = "{"
         b = "}"
-        symb = ["+","-","="]
-        symbsayi = random.randint(0,2)
-        randsymb = symb[symbsayi]
-        print(f'{main} {classascii}{a}\n     {main2} {voidascii}(){a}\n          string {strascii1} = "{strascii2}";\n          string {strascii3} {randsymb} {strascii4};\n   {b}\n{b}')
+        print(f'{main} {classascii}{a}\n     {main2} {voidascii}(){a}\n          string {strascii1} = "{strascii2}";\n          string {strascii3} = {strascii1};\n   {b}\n{b}')
 menu()
